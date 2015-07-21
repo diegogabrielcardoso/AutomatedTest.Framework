@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{89A3B336-AF20-4C85-A336-D42BFA29BD3A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Automation.AcceptanceTest.Framework</RootNamespace>
+    <AssemblyName>Automation.AcceptanceTest.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contracts\Base\INavigatorBase.cs" />
+    <Compile Include="Contracts\Base\IUIElementBase.cs" />
+    <Compile Include="Contracts\Elements\IFileUpload.cs" />
+    <Compile Include="Contracts\Elements\IImageButton.cs" />
+    <Compile Include="Contracts\Elements\IButton.cs" />
+    <Compile Include="Contracts\Elements\IJavaScriptAlert.cs" />
+    <Compile Include="Contracts\Elements\IListBox.cs" />
+    <Compile Include="Contracts\Elements\IUIElementSelectable.cs" />
+    <Compile Include="Contracts\Elements\ICheckBox.cs" />
+    <Compile Include="Contracts\Elements\IUIElementClickable.cs" />
+    <Compile Include="Contracts\Elements\IUIElement.cs" />
+    <Compile Include="Contracts\Elements\IFrame.cs" />
+    <Compile Include="Contracts\Elements\IDatePicker.cs" />
+    <Compile Include="Contracts\Elements\IDropDown.cs" />
+    <Compile Include="Contracts\Elements\ILabel.cs" />
+    <Compile Include="Contracts\Elements\ILinkButton.cs" />
+    <Compile Include="Contracts\Elements\IMenu.cs" />
+    <Compile Include="Contracts\Elements\IRadioButton.cs" />
+    <Compile Include="Contracts\Elements\ITable.cs" />
+    <Compile Include="Contracts\Elements\ITextBox.cs" />
+    <Compile Include="Contracts\Elements\IWindowPage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

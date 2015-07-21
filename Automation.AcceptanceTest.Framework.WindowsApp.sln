@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.AcceptanceTest.Framework.WindowsApp", "Automation.AcceptanceTest.Framework.WindowsApp\Automation.AcceptanceTest.Framework.WindowsApp.csproj", "{35687A7F-4FA3-4BA7-9475-108D8B1F84DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.AcceptanceTest.Framework", "Automation.AcceptanceTest.Framework\Automation.AcceptanceTest.Framework.csproj", "{89A3B336-AF20-4C85-A336-D42BFA29BD3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAppAnalyzer", "Automation.Windows.AppAnalyzer\WindowsAppAnalyzer.csproj", "{067BA267-5A08-49DE-BB89-AE4783C07E0E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://diegogabrielcardoso.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = Automation.AcceptanceTest.Framework.WindowsApp\\Automation.AcceptanceTest.Framework.WindowsApp.csproj
+		SccProjectName0 = Automation.AcceptanceTest.Framework.WindowsApp
+		SccLocalPath0 = Automation.AcceptanceTest.Framework.WindowsApp
+		SccProjectUniqueName1 = Automation.AcceptanceTest.Framework\\Automation.AcceptanceTest.Framework.csproj
+		SccProjectName1 = Automation.AcceptanceTest.Framework
+		SccLocalPath1 = Automation.AcceptanceTest.Framework
+		SccLocalPath2 = .
+		SccProjectUniqueName3 = Automation.Windows.AppAnalyzer\\WindowsAppAnalyzer.csproj
+		SccProjectName3 = Automation.Windows.AppAnalyzer
+		SccLocalPath3 = Automation.Windows.AppAnalyzer
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35687A7F-4FA3-4BA7-9475-108D8B1F84DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35687A7F-4FA3-4BA7-9475-108D8B1F84DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35687A7F-4FA3-4BA7-9475-108D8B1F84DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35687A7F-4FA3-4BA7-9475-108D8B1F84DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A3B336-AF20-4C85-A336-D42BFA29BD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A3B336-AF20-4C85-A336-D42BFA29BD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A3B336-AF20-4C85-A336-D42BFA29BD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A3B336-AF20-4C85-A336-D42BFA29BD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067BA267-5A08-49DE-BB89-AE4783C07E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067BA267-5A08-49DE-BB89-AE4783C07E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067BA267-5A08-49DE-BB89-AE4783C07E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067BA267-5A08-49DE-BB89-AE4783C07E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
